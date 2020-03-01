@@ -1,0 +1,20 @@
+@import "setup";
+@import "variables";
+@import "mixins";
+
+html {
+    font-size: 125%;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+}
+
+.members {
+    display: flex;
+    justify-content: space-evenly;
+}

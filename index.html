@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="shortcut icon" href="assets/startABand.ico"/>
+    <title>Start a Band!</title>
+</head>
+<body>
+    <header>
+        <h1>Start a Band!</h1>
+    </header>
+    <main>
+        <div class="bandDisplay" hidden="true">
+            <div class="members"></div>
+            <div class="bandGenre"></div>
+        </div>
+
+        <form class="memberSelect">
+            <h2>How Many Bandmates Do You Want?</h2>
+            <select name="members">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </form>
+        <button>Start a Band!</button>
+    </main>
+    <footer>
+        <p>by James Lewis Sotelo</p>
+        <a href="https://github.com/unifolia">GitHub</a>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="startABand.js"></script>
+</body>
+</html>
